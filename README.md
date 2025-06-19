@@ -17,14 +17,6 @@
 
 ---
 
-
-## 👥 Team
-
-- 👨‍💻 **Ambati Jaya Charan** – Developer  
-- 🛠️ **Venkata Anand Sai Kumar Narla** – Deployment
-
----
-
 ## 📌 Use Cases
 
 - Legal research for academic purposes  
