@@ -1,0 +1,23 @@
+# Dockerfile for the LawGPT backend
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Copy requirements first for better caching
+COPY BACKEND/requirements.txt .
+
+# Install dependencies with increased timeout and using a more reliable mirror
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the backend code
+COPY BACKEND/ .
+
+# Environment variables
+ENV INITIALIZE_APP=true
+ENV GOOGLE_API_KEY=""
+
+# Expose the API port
+EXPOSE 8800
+
+# Run the backend server
+CMD ["python", "api_server.py"]

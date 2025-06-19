@@ -1,0 +1,13 @@
+# filepath: /Users/venkatnarla/Desktop/personal/lawGPT/BACKEND/requirements.txt
+fastapi>=0.104.1
+uvicorn>=0.24.0
+langchain>=0.0.352
+langchain_community>=0.0.13
+langchain_text_splitters>=0.0.1
+langchain-google-genai>=0.0.5
+langchain_core>=0.1.28
+python-dotenv>=1.0.0
+pypdf>=3.17.1
+pydantic>=2.5.2
+faiss-cpu>=1.7.4
+colorama>=0.4.6

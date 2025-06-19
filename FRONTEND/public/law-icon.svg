@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Scales of Justice -->
+  <path d="M16 4L8 12L16 20L24 12L16 4Z" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  <path d="M16 20V28" stroke="#2C3E50" stroke-width="2"/>
+  <path d="M8 12L8 16" stroke="#2C3E50" stroke-width="2"/>
+  <path d="M24 12L24 16" stroke="#2C3E50" stroke-width="2"/>
+  <!-- Gavel -->
+  <path d="M4 24L12 16" stroke="#2C3E50" stroke-width="2"/>
+  <path d="M20 16L28 24" stroke="#2C3E50" stroke-width="2"/>
+  <path d="M4 16L12 24" stroke="#2C3E50" stroke-width="2"/>
+  <path d="M20 24L28 16" stroke="#2C3E50" stroke-width="2"/>
+  <!-- Center Circle -->
+  <circle cx="16" cy="16" r="2" fill="#2C3E50"/>
+</svg> 
